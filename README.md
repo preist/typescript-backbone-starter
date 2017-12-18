@@ -11,7 +11,7 @@ Before you can start writing code you need to install all the dependencies. You 
 $ npm install
 ```
 
-#### To start a development server
+### Development Server
 To run a local server and run your project in a browser window run:
 
 ```bash
@@ -20,7 +20,7 @@ $ npm run start
 
 This will start a local server that you can open in your browser by pointing it to [http://localhost:3000](http://localhost:3000). The browser will refresh every time you save your source files.
 
-#### To build a production version of your code
+### Production Build
 To build a compressed production ready version of your source code you can run the following command:
 
 ```bash
@@ -30,7 +30,7 @@ $ npm run production
 This will generate `*.bundle.js` files inside your `dist` directory.
 
 
-#### License
+## License
 MIT License
 
 Copyright (c) 2017 by Putina Igor
