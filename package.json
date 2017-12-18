@@ -1,0 +1,25 @@
+{
+  "name": "typescript-backbone-starter",
+  "version": "0.0.1",
+  "description": "A boilerplate writing Backbone.js in TypeScript and compiling it with webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preist/typescript-backbone-starter.git"
+  },
+  "keywords": [
+    "backbone",
+    "backbonejs",
+    "underscore",
+    "underscorejs",
+    "typescript",
+    "boilerplate",
+    "webpack",
+    "javascript"
+  ],
+  "author": "Igor Putina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preist/typescript-backbone-starter/issues"
+  },
+  "homepage": "https://github.com/preist/typescript-backbone-starter#readme"
+}
