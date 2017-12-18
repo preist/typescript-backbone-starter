@@ -22,11 +22,24 @@
     "url": "https://github.com/preist/typescript-backbone-starter/issues"
   },
   "homepage": "https://github.com/preist/typescript-backbone-starter#readme",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000 --inline --progress --profile --colors --watch --content-base src/",
+    "build": "webpack --config webpack.config.js",
+    "production": "webpack --config webpack.config.js -p"
+  },
   "devDependencies": {
+    "@types/backbone": "^1.3.42",
+    "@types/jquery": "^3.2.17",
     "@types/node": "^8.5.1",
+    "@types/underscore": "^1.8.6",
     "awesome-typescript-loader": "^3.4.1",
     "typescript": "^2.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3"
   }
 }

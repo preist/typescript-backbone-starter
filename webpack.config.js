@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 
+// Directories
 const ROOT = path.resolve( __dirname, 'src' );
 const DIST = path.resolve( __dirname, 'dist' );
 
@@ -32,5 +33,7 @@ module.exports = {
             ROOT,
             'node_modules'
         ]
-    }
+    },
+
+    devtool: 'cheap-module-source-map'
 };
