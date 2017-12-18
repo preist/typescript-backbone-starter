@@ -4,6 +4,7 @@
         "noImplicitAny": false,
         "removeComments": false,
         "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
         "target": "es5",
         "lib": [
             "dom",
